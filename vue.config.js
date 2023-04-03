@@ -3,5 +3,5 @@ module.exports = defineConfig({
   transpileDependencies: true
 })
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/pokemon-finder/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/pokemon-finder/" : "/pokemon-finder/",
 };
